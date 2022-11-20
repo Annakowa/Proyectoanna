@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #f4f5f8;
+    background: #490303;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 230px;
+    height: 220px;
+    text-align: center;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0.2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+
+}
+
+.container .card:hover {
+    transform: translatey(-15px);
+    box-shadow: 0.12px 16px rgba(0, 0, 0, 0, 2);
+
+}
+
+.container .card img {
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h2 {
+    font-weight: 600;
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font: size 16px;
+    font-weight: 300;
+
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #f4f5f8;
+    width: 90%;
+    max-width: 2800px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.4em;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(77, 79, 80);
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu li a:hover {
+    background: #b33319;
+
+}
+
+.final {
+    background-color: #fcfbfb;
+}
+
+.final1 {
+    font-family: 'Poppins', sans-serif;
+    color: #38383b;
+}
+
+.titulocabecera {
+
+    text-align: center
+}
+
+.new {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.new i {
+    font-size: 50 px;
+    color: #2C3639 rgb (232, 93, 93);
+
+}
+
+.maincontato {
+    background-color: #490303;
+    color: #f4f5f8;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
