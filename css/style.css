@@ -176,34 +176,91 @@ div.baby {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
 
-.menu {
-    list-style: none;
-    padding: 0;
-    background: #f4f5f8;
-    width: 90%;
-    max-width: 2800px;
-    margin: auto;
-    text-align: center;
-    border-radius: 0.4em;
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
-.menu li a {
-    text-decoration: none;
-    color: rgb(77, 79, 80);
-    padding: 20px;
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+
+
+}
+
+/*menu-btn {  no va en la entrega son test 
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+
+}
+
+@media screen and (max-widht 800px) .menu-btn {
     display: block;
 }
 
+.menu-btn {
+    position: block;
+}
+
+.menu {
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    background: #f2f2f2;
+    width: 100%;
+    height: 100% flex-direction:column;
+    align-items: center;
+    line-height: 100px;
+    transform: transtatex (-100%)
+}
+
+
+menu {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+.menu {
+    display: flex;
+}
+
 .menu li {
-    display: inline-block;
-    text-align: center;
+    list-style: none;
+    margin: 0 15px;
 
 }
 
-.menu li a:hover {
-    background: #b33319;
+/*.menu .menu-i {
+    text-decoration: none;
+    color: #490303;
+    font-weight: bold;
+    transition: all 0.3 ease;
 
 }
+*/
+.men .menu-i:hover {
+    color: #000;
+}
+
 
 .titulocabecera {
     text-align: center
@@ -441,4 +498,90 @@ div.baby {
 
 .carousel-dark .carousel-caption {
     color: #000;
+}
+
+/*footer*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.box {
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.box:hover {
+    width: 200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 25px #b315917c;
+}
+
+.box:nth-child(2):hover {
+    background: #25d366;
+    box-shadow: 0 0 25px #25d3657e;
+}
+
+.box:nth-child(3):hover {
+    background: #1877f2;
+    box-shadow: 0 0 25px #1876f285;
+}
+
+.box:nth-child(4):hover {
+    background: #1da1f2;
+    box-shadow: 0 0 25px #1da0f280;
+}
+
+.navbar p {
+    transform: translate(60px);
+}
+
+.box .icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.instagram {
+    background-color: #c32aa3;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+.facebook {
+    background-color: #1877f2;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.box:hover .icon {
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
 }

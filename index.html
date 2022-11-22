@@ -7,28 +7,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-
     <title>Proyecto Anna</title>
 </head>
 
 <body>
     <header class="cabecera">
-        <img src="./images/logopequeno.png" class="d-block w-10 m-auto" alt="Logo aqui" class="logo">
 
-        <nav>
-            <ul class="menu">
-                <li class="menu1"><a href="./index.html">Inicio</a></li>
-                <li class="menu2"><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li class="menu3"><a href="./pages/contacto.html">Contacto</a></li>
-                <li class="menu4"><a href="./pages/masinfo.html">Tarot/Signos</a></li>
-                <li class="menu5"><a href="./pages/galeria.html">Loja</a></li>
-            </ul>
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logopequeno.png" alt="logo" width="50px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">Nossa Loja</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Saiba mais!
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/masinfo.html">Tarot/Signos</a></li>
+
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="./pages/contacto.html">Contato</a></li>
+                                <li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-danger" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
 
     </header>
+
     <main class="indexmain">
-        <h1 class="titulocabecera">Inicio</h1>
+
+
+        <div>
+            <h1 class="titulocabecera">Inicio</h1>
+        </div>
 
 
         <div class="container">
@@ -74,9 +115,41 @@
             <p class="final1">© 2022 - Todos los derechos reservados a Sobre Mulheres e Lobos</p>
         </div>
 
+        <div class="navbar">
+            <div class="box">
+                <div class="icon instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                <p>Instagram</p>
+            </div>
+
+            <div class="box">
+                <div class="icon whatsapp">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </div>
+                <p>Whatsapp</p>
+            </div>
+
+            <div class="box">
+                <div class="icon facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                <p>Facebook</p>
+            </div>
+
+            <div class="box">
+                <div class="icon twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </div>
+                <p>Twitter</p>
+            </div>
+        </div>
+
     </footer>
 
     <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
