@@ -15,6 +15,7 @@ body {
 
 
 body {
+    max-width: 100%;
     width: 100%;
     height: 100%;
     font-family: sans-serif;
@@ -24,15 +25,66 @@ body {
 
 main.mapamain {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    max-width: 100%;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
+form.mapa {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
 
+}
+
+.formcontato {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.maincontato {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.botaomapa {
+    margin-top: 20px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
+
+footer.final {
+    margin: 150px;
+}
+
+div.baby {
+    margin: 75px;
+}
 
 .card-header {
     color: rgb(139, 8, 8);
+    font-size: 20px;
+    line-height: 10px;
+
+
 }
 
 .card-title {
@@ -104,12 +156,13 @@ main.mapamain {
 .container .card a {
     font-weight: 500;
     text-decoration: none;
-    color: #3498db
+    color: #ad290e
 }
 
 .card-body {
     flex: 1 1 auto;
     padding: 1rem 1rem;
+
 }
 
 .card-header {
