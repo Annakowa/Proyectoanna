@@ -5,61 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Proyecto Anna</title>
+    <title>Tarot/Signos</title>
 </head>
 
 <body>
     <header class="cabecera">
-        <img src="../images/logomj.png" alt="Logo aqui" class="logo">
+        <img src="../images/logopequeno.png" class="d-block w-10 m-auto" alt="Logo aqui" class="logo">
         <nav>
             <ul class="menu">
-                <li class="menu1"><a href="./index.html">Inicio</a></li>
-                <li class="menu2"><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li class="menu3"><a href="./pages/contacto.html">Contacto</a></li>
-                <li class="menu4"><a href="./pages/masinfo.html">Tarot/Signos</a></li>
-                <li class="menu5"><a href="./pages/galeria.html">Loja</a></li>
+                <li class="menu1"><a href="../index.html">Inicio</a></li>
+                <li class="menu2"><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li class="menu3"><a href="../pages/contacto.html">Contacto</a></li>
+                <li class="menu4"><a href="../pages/masinfo.html">Tarot/Signos</a></li>
+                <li class="menu5"><a href="../pages/galeria.html">Loja</a></li>
             </ul>
 
         </nav>
-        <main>
-            <h1 class="titulocabecera">Faça seu mapa astral !</h1>
+        <h1 class="titulocabecera">Faça seu mapa astral !</h1>
+    </header>
+
+    <main class="mapamain">
+
+        <div class="card w-25 mb-5 m-auto">
+            <h5 class="card-header">O que é um mapa Astral?</h5>
+            <div class="card-body">
+                <h5 class="card-title">Todo o que você precisa saber sobre seu zodíaco</h5>
+                <p class="card-text">O mapa astral é usado como uma ferramenta para explicar características de
+                    personalidade, prever eventos, descobrir afinidades, orientar nos momentos desafiadores e descobrir
+                    as facilidades.</p>
+                <a href="#" class="btn btn-danger">Go somewhere</a>
+            </div>
+        </div>
 
 
-            <div class="container">
+        <article class="mb-5">
+            <form class="mapa">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="text" placeholder="Hora de nascimento">
+                <input type="text" placeholder="Data de nascimento">
+                <input type="text" placeholder="Local de nascimento">
+                <input type="submit" value"Enviar">
+            </form>
 
-                <div class="card">
-                    <img src="../images/signo.jpg" alt="foto aqui">
-                    <h2>O que é um mapa astral</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus facilis at dolore.
-                        Illum, dolor
-                        laboriosam! Magni commodi temporibus cumque ipsam, iure ut porro vero quia, quibusdam excepturi
-                        voluptatibus
-                        illum.</p>
-                    <a href=" #">leer más</a>
-                </div>
 
-                <form>
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="E-mail">
-                    <input type="text" placeholder="Hora de nascimento">
-                    <input type="text" placeholder="Data de nascimento">
-                    <input type="text" placeholder="Local de nascimento">
-                    <input type="submit" value"Enviar">
-                </form>
 
 
             </div>
+    </main>
+    <footer class="final">
+        <div>
+            <p class="final1">© 2021 - Todos los derechos reservados a Sobre Mulheres e Lobos</p>
+        </div>
 
-            </div>
-        </main>
+    </footer>
 
-        <footer class="final">
-            <div>
-                <p class="final1">© 2021 - Todos los derechos reservados a Sobre Mulheres e Lobos</p>
-            </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
 
-        </footer>
 </body>
 
 </html>
