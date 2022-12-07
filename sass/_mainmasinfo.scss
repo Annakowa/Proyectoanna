@@ -1,0 +1,91 @@
+main.mapamain {
+    div {
+        .card-header {
+            color: #8b0808;
+            font-size: 20px;
+            line-height: 10px;
+        }
+
+        .cardt-body {
+            flex: 1 1 auto;
+            padding: 1rem 1rem
+        }
+
+        .card-title {
+            color: #423b3b;
+        }
+
+        .card-text {
+            color: #000;
+        }
+
+        .mapa {
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+
+main.mapamain {
+
+    aside.asidemapa {
+        background-color: #490303;
+        color: #f4f5f8;
+        font-family: 'Poppins', sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+
+
+        .formmapa {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+
+        }
+
+        input {
+            margin-top: 20px;
+            height: 20px;
+            padding: 15px;
+            border-radius: 20px;
+            border: none;
+            font-size: 15px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            height: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+            font-size: 15px;
+            text-align: center;
+
+        }
+
+
+
+
+    }
+}
+
+header.cabecera {
+
+    h1.titulocabecera {
+        font-size: 56px;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+
+
+
+
+
+
+    }
+}

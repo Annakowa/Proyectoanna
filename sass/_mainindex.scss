@@ -1,0 +1,68 @@
+main.indexmain {
+    div.titulocabeceraindex {
+        text-align: center
+    }
+
+    div.container {
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+
+
+    }
+
+
+}
+
+main.indexmain {
+
+    .cardtindex {
+        width: 330px;
+        height: 530px;
+        border-radius: 8px;
+        box-shadow: 0.2px rgba(0, 0, 0, 0.2) !important;
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+
+
+        .cardtindex .img {
+            width: 330px;
+            height: 220px;
+        }
+
+        .cardtindex.h2index {
+            font-weight: 600;
+            color: #490303;
+        }
+
+        .cardtindex.h3index {
+            font-weight: 600;
+            color: #490303;
+        }
+
+        .cardtindex.h4index {
+            font-weight: 600;
+            color: #490303;
+        }
+
+        .cardtindex.pindex {
+            padding: 0 1rem;
+            font: size 16px;
+            font-weight: 300;
+            color: #000;
+        }
+
+        .cardtindex.a {
+            font-weight: 500;
+            text-decoration: none;
+            color: #ad290e
+        }
+    }
+
+}
