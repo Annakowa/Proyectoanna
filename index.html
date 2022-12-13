@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywrods" content="mapa astral, nossos, nossa loja, yoga, meditar, mapa, signo">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Proyecto</title>
@@ -14,10 +15,9 @@
     <header class="cabecera">
 
 
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html" width="50px">
                     <img src="./images/logopequeno.png" alt="logo" width="50px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -66,52 +66,117 @@
     </header>
 
     <main class="indexmain">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#490303" />
+                    </svg>
 
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Faça parte de nossa comunidade.</h1>
+                            <p>Juntas podemos fazer qualquer coisa.</p>
+                            <p><a class="btn btn-danger btn-primary" href="./pages/contacto.html">Ler mais</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#490303" />
+                    </svg>
 
-        <div class="tituloindex">
-            <h1 class="titulocabeceraindex">Inicio</h1>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Banho de ervas para ativar seu poder!</h1>
+                            <p> Veja este tutorial para usar as 11 propriedades de ervas em um banho que ativará seu
+                                poder interior.</p>
+                            <p><a class="btn btn-danger btn-primary"
+                                    href="https://www.youtube.com/watch?v=K5icuZw5h-U">Assistir ao video</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#490303" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Mapa Natal</h1>
+                            <p> Um mapa natal é um desenho da representação do céu na hora e local do nascimento. É a
+                                interpretação e leitura da posição do sol, lua, planetas, constelações e outros pontos
+                                estrelares num determinado momento e lugar.</p>
+                            <p><a class="btn btn-danger btn-primary" href="./pages/masinfo.html">Ler mais</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="container">
-            <div class="cardtindex">
-                <img src="./images/tarot.webp" alt="foto aqui">
-                <h2 class="h2index">Tarot</h2>
-                <p class="pindex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus facilis
-                    at dolore.
-                    Illum, dolor laboriosam! Magni commodi temporibus cumque ipsam.</p>
-                <a href=" #">leer más</a>
-            </div>
-
-            <div class="cardtindex">
-                <img src="./images/signo.jpg" alt="foto 1">
-                <h3 class="h3index">Signos</h3>
-                <p class="pindex">Los encuentros con la Mirada de Alfa se distinguen por restaurar la esperanza y la
-                    paz en sus observadores, permitiendo que la ayuda necesaria.</p>
-                <a href="#">Leer más</a>
-
-            </div>
-
-            <div class="cardtindex">
-                <img src="./images/Mindfulness-Meditation.jpg" alt="foto 1">
-                <h4 class="h4index">Meditar</h4>
-                <p class="pindex">Los encuentros con la Mirada de Alfa se distinguen por restaurar la esperanza y la
-                    paz en sus
-                    observadores, permitiendo que la ayuda necesaria llegue sin esfuerzo y con
-                    generosidad.</p>
-                <a href="#">Leer más</a>
 
 
-
-            </div>
-
-        </div>
+        <div class="container marketing">
 
 
+            <div class="row">
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="0" height="0" xmlns="" role="img"
+                        aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#f4f5f8" /><text x="50%" y="50%" fill="#f4f5f8"
+                            dy=".3em">140x140</text>
+                    </svg>
 
+                    <h2>Yoga</h2>
+                    <p>A Yoga melhora o funcionamento do coração, pois regula a circulação sanguínea e o sistema
+                        nervoso...</p>
+                    <p><a class="btn btn-outline-danger" href="#">Ler mais &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="0" height="0"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#f4f5f8" /><text x="50%" y="50%" fill="#f4f5f8"
+                            dy=".3em">140x140</text>
+                    </svg>
 
+                    <h2>Cristais</h2>
+                    <p>As pedras (ou cristais), além de muito bonitas visualmente, são responsáveis por equilibrar,
+                        desbloquear e liberar energias do nosso corpo.</p>
+                    <p><a class="btn btn-outline-danger" href="#">Ler mais &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="0" height="0"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#f4f5f8" /><text x="50%" y="50%" fill="#f4f5f8"
+                            dy=".3em">140x140</text>
+                    </svg>
 
-
-
-
+                    <h2>Meditar</h2>
+                    <p>Saiba mais sobre os beneficios da meditaçao...</p>
+                    <p><a class="btn btn-outline-danger" href="#">Leer mais &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
 
 
 

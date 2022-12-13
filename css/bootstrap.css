@@ -1511,6 +1511,7 @@ progress {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+
   }
 
   .col-lg-5 {
@@ -2293,12 +2294,12 @@ progress {
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #380202;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #380202;
   opacity: 1;
 }
 
