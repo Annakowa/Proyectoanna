@@ -1,4 +1,4 @@
-body.divform {
+.asidecontato {
     background-color: #490303;
     color: #f4f5f8;
     font-family: 'Poppins', sans-serif;
@@ -7,7 +7,7 @@ body.divform {
     padding: 15px;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 70px;
 
     .divform {
         display: flex;
@@ -41,32 +41,35 @@ body.divform {
 
 .baby {
     margin: 75px;
+
 }
 
 main.maincontato {
 
-    aside.asidecontato {
-
-        .titulocon {
-            font-size: 56px;
-            font-family: 'Ibarra Real Nova', serif;
 
 
+    .titulocon {
+        font-size: 56px;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
 
-        }
 
 
     }
+
+
+
 }
 
 
 main.maincontato {
 
-    aside.asidecontato {
 
-        .titulo2 {
-            font-size: 42px;
-            font-family: 'Lexend Tera', sans-serif;
-        }
+
+    .titulo2 {
+        font-size: 42px;
+        font-family: 'Lexend Tera', sans-serif;
+        text-align: center;
     }
+
 }

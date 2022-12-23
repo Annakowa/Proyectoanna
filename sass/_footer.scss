@@ -8,25 +8,6 @@ footer.final {
     }
 
 
-    .box {
-        width: 65px;
-        height: 68px;
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        margin: 0.2rem;
-        position: relative;
-        overflow: hidden;
-        cursor: pointer;
-        transition: all .4s ease;
-    }
-
-
-
-    .navbar p {
-        transform: translate(60px);
-    }
-
     .box .icon {
         position: absolute;
         width: 25px;
@@ -40,12 +21,20 @@ footer.final {
         transition: all .4s ease;
     }
 
+
+
+
+    .navbar p {
+        transform: translate(60px);
+    }
+
+
     .instagram {
-        background-color: #c32aa28a;
+        background-color: #d30aaea8;
     }
 
     .whatsapp {
-        background-color: #25d36593;
+        background-color: #25d3656d;
     }
 
     .facebook {
